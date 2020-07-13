@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Home Form Test" timestamp="2020-07-12T22:59:33" hostname="localhost" time="3.146" errors="0" tests="2" skipped="0" failures="0">
+  <testcase classname="Home Form Test" name="Enter details in the form and submit" time="2.169">
+  </testcase>
+  <testcase classname="Home Form Test" name="Validation After Submit" time="0.956">
+  </testcase>
+ </testsuite>
+ <testsuite name="Shop Page Test" timestamp="2020-07-12T22:59:37" hostname="localhost" time="9.782" errors="0" tests="3" skipped="0" failures="0">
+  <testcase classname="Shop Page Test" name="Navigation to shop Page from home Page" time="8.058">
+  </testcase>
+  <testcase classname="Shop Page Test" name="Check for IphoneX and Add to cart" time="0.908">
+  </testcase>
+  <testcase classname="Shop Page Test" name="Checkout for IphoneX " time="0.81">
+  </testcase>
+ </testsuite>
+ <testsuite name="CheckOut Page Test" timestamp="2020-07-12T22:59:46" hostname="localhost" time="0.898" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="CheckOut Page Test" name="Check for Instock of the product and click checkout" time="0.893">
+  </testcase>
+ </testsuite>
+ <testsuite name="Order Page" timestamp="2020-07-12T22:59:47" hostname="localhost" time="6.422" errors="0" tests="1" skipped="0" failures="1">
+  <testcase classname="Order Page" name="Enter Location and Check Order Success" time="6.418">
+   <failure type="toEqual" message="Expected &amp;apos;×
+Success! Thank you! Your order will be delivered in next few weeks :-).&amp;apos; to equal &amp;apos;Success! Thank you! Your order will be delivered in next few weeks :-).&amp;apos;."><![CDATA[Error: Failed expectation
+    at deliveryLocationPage.verifySuccessMesssage (C:\Users\User\Desktop\protocommerce\pages\deliveryLocationPage.js:27:43)
+    at UserContext.<anonymous> (C:\Users\User\Desktop\protocommerce\tests\4.order.js:9:30)
+    at C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

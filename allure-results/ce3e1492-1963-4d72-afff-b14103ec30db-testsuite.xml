@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594616298844' stop='1594616299631'>
+    <name>CheckOut Page Test</name>
+    <title>CheckOut Page Test</title>
+    <test-cases>
+        <test-case start='1594616298845' status='passed' stop='1594616299629'>
+            <name>Check for Instock of the product and click checkout</name>
+            <title>Check for Instock of the product and click checkout</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616298846' status='passed' stop='1594616298846'>
+                    <name>Checkout Page-Click Ckeckout button</name>
+                    <title>Checkout Page-Click Ckeckout button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='79b18451-a98e-4dc7-b04e-cdcb04e03740-attachment.png' type='image/png' size='24395'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

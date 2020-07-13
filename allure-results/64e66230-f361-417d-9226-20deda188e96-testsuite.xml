@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594616373854' stop='1594616376983'>
+    <name>Home Form Test</name>
+    <title>Home Form Test</title>
+    <test-cases>
+        <test-case start='1594616373854' status='passed' stop='1594616376023'>
+            <name>Enter details in the form and submit</name>
+            <title>Enter details in the form and submit</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616373859' status='passed' stop='1594616373859'>
+                    <name>Launch Url </name>
+                    <title>Launch Url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616373861' status='passed' stop='1594616373861'>
+                    <name>Enter Name</name>
+                    <title>Enter Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616373861' status='passed' stop='1594616373861'>
+                    <name>Enter Email</name>
+                    <title>Enter Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616373861' status='passed' stop='1594616373861'>
+                    <name>Enter Password</name>
+                    <title>Enter Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616373862' status='passed' stop='1594616373862'>
+                    <name>Click Submit button</name>
+                    <title>Click Submit button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a1f1ddd5-9b9b-42f1-a6af-f2caa5e000d5-attachment.png' type='image/png' size='20858'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594616376023' status='passed' stop='1594616376979'>
+            <name>Validation After Submit</name>
+            <title>Validation After Submit</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616376344' status='passed' stop='1594616376344'>
+                    <name>Validate Value in Binding TextBox</name>
+                    <title>Validate Value in Binding TextBox</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616376345' status='passed' stop='1594616376345'>
+                    <name>Validate Success Message</name>
+                    <title>Validate Success Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c9756fe8-e73c-40b6-a2f5-095f3f4dc66a-attachment.png' type='image/png' size='20858'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

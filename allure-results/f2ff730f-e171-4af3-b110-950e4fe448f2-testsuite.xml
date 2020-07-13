@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594616377000' stop='1594616386777'>
+    <name>Shop Page Test</name>
+    <title>Shop Page Test</title>
+    <test-cases>
+        <test-case start='1594616377000' status='passed' stop='1594616385058'>
+            <name>Navigation to shop Page from home Page</name>
+            <title>Navigation to shop Page from home Page</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616377002' status='passed' stop='1594616377002'>
+                    <name>Clcik on the Shop Link in top Menu</name>
+                    <title>Clcik on the Shop Link in top Menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594616377004' status='passed' stop='1594616377004'>
+                    <name>Verify Page Title</name>
+                    <title>Verify Page Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9d11029b-013d-4bb9-9a01-67b392bfda3b-attachment.png' type='image/png' size='96089'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594616385058' status='passed' stop='1594616385966'>
+            <name>Check for IphoneX and Add to cart</name>
+            <title>Check for IphoneX and Add to cart</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616385381' status='passed' stop='1594616385381'>
+                    <name>Click Add to cart button</name>
+                    <title>Click Add to cart button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3c16feac-d97c-45c4-a3e3-be93d7f6a854-attachment.png' type='image/png' size='121012'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594616385966' status='passed' stop='1594616386776'>
+            <name>Checkout for IphoneX </name>
+            <title>Checkout for IphoneX </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594616386283' status='passed' stop='1594616386283'>
+                    <name>Shop Page-Click Ckeckout button</name>
+                    <title>Shop Page-Click Ckeckout button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ea838ad0-c428-48ee-ac8b-b2b1b19fc048-attachment.png' type='image/png' size='36187'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
